@@ -1,0 +1,30 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "43cb0615baf29ca1b6e62a8f65143b01",
+    "content-hash": "83930b6d93d2add0bdb03818759fd352",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "rtmpdump/rtmpdump",
+            "version": "2.3",
+            "dist": {
+                "type": "tar",
+                "url": "https://rtmpdump.mplayerhq.hu/download/rtmpdump-2.3.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
