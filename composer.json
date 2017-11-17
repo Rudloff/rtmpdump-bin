@@ -1,26 +1,30 @@
 {
-	"name": "rudloff/rtmpdump-bin",
-	"description": "rtmpdump binary for Linux 64 bit",
-	"license": "GPL-2.0",
-	"require-dev": {
-		"rtmpdump/rtmpdump": "2.3"
-	},
-	"repositories": [{
-		"type": "package",
-		"package": {
-			"name": "rtmpdump/rtmpdump",
-			"version": "2.3",
-			"dist": {
-				"url": "https://rtmpdump.mplayerhq.hu/download/rtmpdump-2.3.tgz",
-				"type": "tar"
-			}
-		}
-	}],
-	"bin": ["rtmpdump"],
-	"scripts": {
-		"build": [
-			"cd vendor/rtmpdump/rtmpdump/ && make",
-			"cp vendor/rtmpdump/rtmpdump/rtmpdump ."
-		]
-	}
+  "name": "rudloff/rtmpdump-bin",
+  "description": "rtmpdump binary for Linux 64 bit",
+  "license": "GPL-2.0",
+  "require-dev": {
+    "rtmpdump/rtmpdump": "2.3"
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "rtmpdump/rtmpdump",
+        "version": "2.3",
+        "dist": {
+          "url": "https://rtmpdump.mplayerhq.hu/download/rtmpdump-2.3.tgz",
+          "type": "tar"
+        }
+      }
+    }
+  ],
+  "bin": [
+    "rtmpdump"
+  ],
+  "scripts": {
+    "build": [
+      "cd vendor/rtmpdump/rtmpdump/ && make",
+      "cp vendor/rtmpdump/rtmpdump/rtmpdump ."
+    ]
+  }
 }

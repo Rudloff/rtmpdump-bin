@@ -1,0 +1,6 @@
+{
+  "license": "GPL-2.0",
+  "dependencies": {
+    "jsonlint": "^1.6.2"
+  }
+}
